@@ -1,0 +1,72 @@
+body,
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/*-- banner --*/
+
+.parallax {
+    /* The image used */
+    background-image: url('../img/banner.png');
+    /* Full height */
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner {
+    height: 620px;
+}
+
+.caption {
+    position: absolute;
+    top: 0px;
+    height: 620px;
+    padding: 75px 0px 75px 0px;
+}
+
+.caption div {
+    max-width: 600px;
+    width: 100%;
+    margin: auto;
+}
+
+.logo-img {
+    height: 115, 25px;
+    width: 73, 75px;
+    margin-bottom: 70px;
+}
+
+.title-caption {
+    font-size: 60px;
+    max-width: 700px;
+    width: 100%;
+    font-family: 'Poppins SemiBold';
+    margin: 60px auto;
+}
+
+.buttonSee {
+    height: 50px;
+    width: 245px;
+    background-color: #FFFFFF;
+    color: black;
+    border 1px solid #707070;
+}
+
+
+/*-- mobile --*/
+
+@media only screen and (max-width: 600px) {
+    .title-caption {
+        font-size: 40px;
+    }
+}
