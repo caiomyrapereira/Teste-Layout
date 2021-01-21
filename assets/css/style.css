@@ -63,6 +63,58 @@ body {
 }
 
 
+/*-- categoria --*/
+
+#categoria {
+    max-width: 1375px;
+    width: 100%;
+    margin: 50px auto;
+}
+
+.categoria-title {
+    padding: 0px 60px;
+    border-left: 2px solid #707070;
+}
+
+.categoria-title h1 {
+    font: 52px 'Poppins';
+    font-weight: bold;
+}
+
+.categoria-title p {
+    font: 18px 'Poppins';
+    font-weight: bold;
+}
+
+.legend {
+    position: absolute;
+    margin: 0;
+    width: 100%;
+    color: #FFFFFF;
+    padding: 30px;
+    height: 100%;
+    right: 0px;
+    top: 0px;
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+
+.legend h1 {
+    font-size: 52px;
+}
+
+.legend p {
+    font-size: 20px;
+}
+
+
+/*-- plans --*/
+
+.plans {
+    background-color: #F4F4F4;
+}
+
+
 /*-- mobile --*/
 
 @media only screen and (max-width: 600px) {
