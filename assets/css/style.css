@@ -115,14 +115,19 @@ body {
 
 .plans {
     background-color: #F4F4F4;
-    height: 613px;
+    max-width: auto;
+    min-height: 613px;
     padding: 50px 0;
 }
 
 .TitlePlans {
     color: #383838;
+    max-width: 1224px;
+    width: 100%;
+    margin: auto;
     font-weight: 700;
-    padding: 85px;
+    left: 0px;
+    padding-top: 85px;
 }
 
 .test {
@@ -185,5 +190,30 @@ body {
 @media only screen and (max-width: 600px) {
     .title-caption {
         font-size: 40px;
+    }
+    .plans {
+        padding: 200px 0 0 0;
+    }
+    .legend h1 {
+        font-size: 40px;
+    }
+    .legend p {
+        font-size: 15px;
+    }
+    .categoria-title {
+        padding: 0px 40px;
+        margin: 20px;
+    }
+    .categoria-title h1 {
+        font-size: 40px;
+    }
+    .categoria-title p {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .plans {
+        padding: 200px 0 0 0;
     }
 }
