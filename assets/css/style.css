@@ -86,11 +86,14 @@ body {
     font-weight: bold;
 }
 
+.colorLegend {
+    color: #FFFFFF;
+}
+
 .legend {
     position: absolute;
     margin: 0;
     width: 100%;
-    color: #FFFFFF;
     padding: 30px;
     height: 100%;
     right: 0px;
@@ -112,6 +115,68 @@ body {
 
 .plans {
     background-color: #F4F4F4;
+    height: 613px;
+    padding: 50px 0;
+}
+
+.TitlePlans {
+    color: #383838;
+    font-weight: 700;
+    padding: 85px;
+}
+
+.test {
+    max-width: 170px;
+    width: 100%;
+    color: #FFFFFF;
+    background-color: #0088ED;
+}
+
+.top-6 {
+    height: 175px;
+}
+
+.top-5 {
+    height: 225px;
+}
+
+.top-4 {
+    height: 275px;
+}
+
+.top-3 {
+    height: 325px;
+}
+
+.top-2 {
+    height: 375px;
+}
+
+.top-1 {
+    height: 425px;
+}
+
+.test .values {
+    background-color: #005499;
+    height: 98px;
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+
+.test .values h1 {
+    font-size: 34px;
+}
+
+.test .values p {
+    font-size: 20px;
+}
+
+.test .desc {
+    font-size: 12px;
+}
+
+.test .progresss {
+    background-color: #0088ED;
 }
 
 
