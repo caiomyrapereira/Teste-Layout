@@ -134,7 +134,7 @@ body {
     padding-top: 85px;
 }
 
-.test {
+.torre {
     max-width: 170px;
     width: 100%;
     color: #FFFFFF;
@@ -165,26 +165,26 @@ body {
     height: 425px;
 }
 
-.test .values {
+.torre .values {
     background-color: #005499;
     height: 98px;
     font-family: 'Poppins';
     font-weight: bold;
 }
 
-.test .values h1 {
+.torre .values h1 {
     font-size: 34px;
 }
 
-.test .values p {
+.torre .values p {
     font-size: 20px;
 }
 
-.test .desc {
+.torre .desc {
     font-size: 12px;
 }
 
-.test .progresss {
+.torre .progresss {
     background-color: #0088ED;
 }
 
@@ -203,6 +203,9 @@ body {
     }
     .legend p {
         font-size: 15px;
+    }
+    .categoria {
+        height: 300px;
     }
     .categoria-title {
         padding: 0px 40px;
